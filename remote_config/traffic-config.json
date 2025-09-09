@@ -48,6 +48,12 @@
                 "REMOVE_MISS_COUNT": 100,
                 "STALL_EPSILON_METERS": 1000,
                 "label": "VS Feed"
+            },
+        "200": {
+            "defaults": {
+                "color": "#FF00FF",
+                "label": "SkyNet (Magenta)"
+
             }
         }
     }

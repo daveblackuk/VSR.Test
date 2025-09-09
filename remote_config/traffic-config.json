@@ -1,0 +1,54 @@
+{
+    "defaults": {
+        "STALE_SEC": 60,
+        "REMOVE_SEC": 60,
+        "STALE_MISS_COUNT": 3,
+        "REMOVE_MISS_COUNT": 20,
+        "STALL_EPSILON_METERS": 1,
+        "STALL_MIN_POLLS": 15
+    },
+    "byRating": {
+        "300": {
+            "defaults": {
+                "STALE_MISS_COUNT": 4,
+                "REMOVE_MISS_COUNT": 4,
+                "label": "SI AI"
+            },
+            "byState": {
+                "STATE_SIMPLE_FLIGHT":    { "STALL_EPSILON_METERS": 5,  "STALL_MIN_POLLS": 3 },
+                "STATE_ENROUTE_AS_FILED": { "STALL_EPSILON_METERS": 5,  "STALL_MIN_POLLS": 3 },
+                "STATE_SIMPLE_TAXI":      { "STALL_EPSILON_METERS": 1, "STALL_MIN_POLLS": 6 },
+                "STATE_TAXI_TO_PARKING":  { "STALL_EPSILON_METERS": 20, "STALL_MIN_POLLS": 4 },
+                "STATE_SIMPLE_LANDING":   { "STALL_EPSILON_METERS": 5, "STALL_MIN_POLLS": 1 },
+                "STATE_SIMPLE_TAKEOFF":   { "STALL_EPSILON_METERS": 5, "STALL_MIN_POLLS": 1 },
+                "STATE_WAIT_INIT_CONFIRM": { "STALL_EPSILON_METERS": 1, "STALL_MIN_POLLS": 25,  "STALE_MISS_COUNT": 10, "REMOVE_MISS_COUNT": 50 }
+            }
+        },
+        "100": {
+            "defaults": {
+                "STALE_MISS_COUNT": 25,
+                "REMOVE_MISS_COUNT": 59,
+                "STALL_EPSILON_METERS": 10,
+                "STALL_MIN_POLLS": 5,
+                "label": "SI Human"
+            }
+        },
+        "150": {
+            "defaults": {
+                "STALE_MISS_COUNT": 10,
+                "REMOVE_MISS_COUNT": 120,
+                "STALL_EPSILON_METERS": 1,
+                "STALL_MIN_POLLS": 10,
+                "label": "VS AI"
+            }
+        },
+        "999": {
+            "defaults": {
+                "STALE_MISS_COUNT": 100,
+                "REMOVE_MISS_COUNT": 100,
+                "STALL_EPSILON_METERS": 1000,
+                "label": "VS Feed"
+            }
+        }
+    }
+}

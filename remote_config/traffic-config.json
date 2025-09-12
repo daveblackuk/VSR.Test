@@ -40,6 +40,10 @@
                 "STALL_EPSILON_METERS": 1,
                 "STALL_MIN_POLLS": 10,
                 "label": "VS AI"
+            }, 
+            "byState": {
+                "STATE_SIMPLE_FLIGHT":    { "STALL_EPSILON_METERS": 5,  "STALL_MIN_POLLS": 3 }
+
             }
         },
         "999": {

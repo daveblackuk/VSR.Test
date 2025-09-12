@@ -42,7 +42,7 @@
                 "label": "VS AI"
             }, 
             "byState": {
-                "STATE_SIMPLE_FLIGHT":    { "STALL_EPSILON_METERS": 5,  "STALL_MIN_POLLS": 3 }
+                "STATE_SIMPLE_FLIGHT":   { "STALL_EPSILON_METERS": 1, "STALL_MIN_POLLS": 3,  "STALE_MISS_COUNT": 15, "REMOVE_MISS_COUNT": 20 }
 
             }
         },

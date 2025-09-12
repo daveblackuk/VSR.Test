@@ -1,11 +1,12 @@
 {
     "defaults": {
-        "STALE_SEC": 60,
-        "REMOVE_SEC": 60,
+        "STALE_SEC": 30,
+        "REMOVE_SEC": 30,
         "STALE_MISS_COUNT": 3,
         "REMOVE_MISS_COUNT": 20,
         "STALL_EPSILON_METERS": 1,
         "STALL_MIN_POLLS": 15
+
     },
     "byRating": {
         "300": {
@@ -38,7 +39,13 @@
                 "label": "VS AI"
             }, 
             "byState": {
-                "STATE_SIMPLE_FLIGHT":   { "STALL_EPSILON_METERS": 1, "STALL_MIN_POLLS": 3,  "STALE_MISS_COUNT": 15, "REMOVE_MISS_COUNT": 20 },
+                "STATE_SIMPLE_FLIGHT":   { "STALL_EPSILON_METERS": 1, 
+                                            "STALL_MIN_POLLS": 3,  
+                                            "STALE_MISS_COUNT": 15, 
+                                            "REMOVE_MISS_COUNT": 20, 
+                                            "STALE_SEC": 15,
+                                            "REMOVE_SEC": 10 
+                                        },
                 "STATE_WAIT_INIT_CONFIRM": { "STALL_EPSILON_METERS": 1, "STALL_MIN_POLLS": 25,  "STALE_MISS_COUNT": 10, "REMOVE_MISS_COUNT": 50 }             
 
             }

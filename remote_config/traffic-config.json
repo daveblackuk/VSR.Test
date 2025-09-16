@@ -13,7 +13,7 @@
             "defaults": {
                 "STALE_MISS_COUNT": 4,
                 "REMOVE_MISS_COUNT": 4,
-                "label": "SI AI"
+                "label": "SI AI aircraft"
             },
             "byState": {
                 "STATE_SIMPLE_FLIGHT":    { "STALL_EPSILON_METERS": 5,  "STALL_MIN_POLLS": 3 },

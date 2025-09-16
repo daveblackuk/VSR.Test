@@ -10,7 +10,8 @@
 		"REMOVE_SEC": 30,
 		"STALE_MISS_COUNT": 3,
 		"REMOVE_MISS_COUNT": 20,
-		"STALL_MIN_POLLS": 15
+		"STALL_MIN_POLLS": 3,
+
 	},
 	"byRating": {
 		"300": {
@@ -68,16 +69,19 @@
 				"STATE_WAIT_INIT_CONFIRM": {
 					"STALL_MIN_POLLS": 25,
 					"STALE_MISS_COUNT": 10,
-					"REMOVE_MISS_COUNT": 50
+					"REMOVE_MISS_COUNT": 50,
+					"STALE_SEC": 5,
+					"REMOVE_SEC": 5
 				}
 			}
 		},
 		"999": {
 			"defaults": {
 				"label": "VS Feed",
-				"STALE_MISS_COUNT": 25,
-				"REMOVE_MISS_COUNT": 59,
-				"STALL_MIN_POLLS": 25
+  "STALE_SEC": 40,
+  "REMOVE_SEC": 3,
+  "STALE_MISS_COUNT": 2,
+  "REMOVE_MISS_COUNT": 1
 
 			}
 		},

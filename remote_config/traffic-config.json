@@ -1,13 +1,12 @@
 {
-	"PilotRatingMap": {
-		"300": {},
+		}
 		"100": {},
 		"150": {},
 
 		"200": {
 			"color": "#FF00FF"
 		}
-	},
+
 	"defaults": {
 		"STALE_SEC": 30,
 		"REMOVE_SEC": 30,
@@ -62,6 +61,6 @@
 				"color": "#FF00FF",
 				"label": "SkyNet (Magenta)"
 			}
+
 		}
 	}
-}

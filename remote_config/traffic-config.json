@@ -50,7 +50,8 @@
                 "REMOVE_MISS_COUNT": 100,
                 "STALL_EPSILON_METERS": 1000,
                 "label": "VS Feed",
-                "color": "blue"
+                "color": "blue",
+                "className" : "myAircraft"
             }
         },
         "200": {

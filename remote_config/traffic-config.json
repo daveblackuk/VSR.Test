@@ -10,7 +10,7 @@
 		"REMOVE_SEC": 30,
 		"STALE_MISS_COUNT": 3,
 		"REMOVE_MISS_COUNT": 20,
-		"STALL_MIN_POLLS": 3,
+		"STALL_MIN_POLLS": 3
 
 	},
 	"byRating": {

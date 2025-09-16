@@ -74,7 +74,11 @@
 		},
 		"999": {
 			"defaults": {
-				"label": "VS Feed"
+				"label": "VS Feed",
+				"STALE_MISS_COUNT": 25,
+				"REMOVE_MISS_COUNT": 59,
+				"STALL_MIN_POLLS": 25
+
 			}
 		},
 		"200": {

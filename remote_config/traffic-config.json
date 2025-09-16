@@ -76,7 +76,10 @@
 		"999": {
 			"defaults": {
 				"label": "VS Feed",
-"STALE_SEC": 40,"REMOVE_SEC": 3, "STALE_MISS_COUNT": 2,"REMOVE_MISS_COUNT": 1
+				"STALE_SEC": 40,
+				"REMOVE_SEC": 3,
+				"STALE_MISS_COUNT": 2,
+				"REMOVE_MISS_COUNT": 1
 
 			}
 		},

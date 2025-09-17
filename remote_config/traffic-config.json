@@ -26,7 +26,12 @@
 					"STALL_MIN_POLLS": 3
 				},
 				"STATE_SIMPLE_TAXI": {
-					"STALL_MIN_POLLS": 6
+					"STALE_SEC": 40,
+					"REMOVE_SEC": 3,
+					"STALE_MISS_COUNT": 2
+					"REMOVE_MISS_COUNT": 1,
+					"STALL_MIN_POLLS": 5,
+					"label": "SI AI Taxi"
 				},
 				"STATE_TAXI_TO_PARKING": {
 					"STALL_MIN_POLLS": 4

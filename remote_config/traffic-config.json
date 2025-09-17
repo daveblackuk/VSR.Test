@@ -67,11 +67,12 @@
 					"REMOVE_SEC": 30
 				},
 				"STATE_WAIT_INIT_CONFIRM": {
-					"STALL_MIN_POLLS": 25,
-					"STALE_MISS_COUNT": 10,
-					"REMOVE_MISS_COUNT": 50,
-					"STALE_SEC": 5,
-					"REMOVE_SEC": 5
+					"STALE_SEC": 40,
+					"REMOVE_SEC": 3,
+					"STALE_MISS_COUNT": 2,
+					"REMOVE_MISS_COUNT": 1,
+					"STALL_MIN_POLLS": 50,
+					
 				}
 			}
 		},

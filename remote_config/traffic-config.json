@@ -71,7 +71,7 @@
 					"REMOVE_SEC": 3,
 					"STALE_MISS_COUNT": 2,
 					"REMOVE_MISS_COUNT": 1,
-					"STALL_MIN_POLLS": 50,
+					"STALL_MIN_POLLS": 50
 					
 				}
 			}
